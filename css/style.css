@@ -1,0 +1,44 @@
+.gameboard {
+    margin: 10% 17%;
+    height: 500px;
+    width: 500px;
+    background: black;
+    border: 2px solid black;
+}
+
+.tile {
+    padding: 0px;
+    height: calc(100%/3 - 4px);
+    width: calc(100%/3 - 4px);
+    background: white;
+    border: 2px solid black;
+    float: left;
+}
+
+.X_val {
+    color: red;
+    font-size: 129px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.O_val {
+    color: blue;
+    font-size: 129px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.winner {
+    color: green;
+    font-size: 129px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.draw {
+    color: orange;
+    font-size: 129px;
+    font-family: monospace;
+    text-align: center;
+}
